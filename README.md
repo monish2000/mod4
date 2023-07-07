@@ -1,41 +1,43 @@
-# Project Title
-
-Simple overview of use/purpose.
+# Redeem 
+This program creates a relation between owner and sender by allowing them to mint, burn and Redeem tokens 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This program is written using Solidity-programming language used for developing smart contracts on the Ethereum blockchain. Using mint, burn, transfer and redeem function. Redeem fuction with live example of purchasing a product. 
 
 ## Getting Started
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Fork the starter template project to begin
+* Modify DegenToken.sol under contracts and add an env file to link the account under scripts.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* In terminal type- npx hardhat run scripts/deploy.js --network fuji
+* After that you'll be deployed to a particular account say x
+* Now you need to verify
+* npx hardhat verify  x  --network fuji (note: replace x with the above account Id)
 ```
-code blocks for commands
+npx hardhat run scripts/deploy.js --network fuji
+npx hardhat verify  x  --network fuji
+
 ```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Copy the acoount properly, it doesn't work with spaces.
+
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+S.R Monish Raj
+
+srs2kin04@gmail.com
 
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
